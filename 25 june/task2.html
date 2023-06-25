@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+div{
+
+background-color: green;
+height: 100px;
+width: 100px;
+position: relative;
+margin-left: 200px;
+animation-name: box  ;
+animation-duration: 10s;
+animation-timing-function : ease-in ;
+animation-direction: alternate;
+border-radius: 10px;
+
+
+}
+
+@keyframes box {
+  0%   {background:linear-gradient(rgb(10, 255, 55),rgb(0,255,180)); left:0px; top:0px;}
+  25%  {background:linear-gradient(rgb(80, 232, 10),rgb(14, 191, 249)); left:200px; top:0px;}
+  50%  {background:linear-gradient(rgb(10, 62, 232),rgb(199, 215, 53)); left:200px; top:200px;}
+  75%  {background:linear-gradient(rgb(255, 251, 13),rgb(250, 148, 15));left:0px; top:200px;}
+  100% {background:linear-gradient(rgb(243, 88, 49),rgb(18, 236, 51)); left:0px; top:0px;}
+
+
+
+
+
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>
